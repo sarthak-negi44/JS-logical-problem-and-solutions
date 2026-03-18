@@ -17,3 +17,16 @@ if(b===str){
 else{
     console.log(`the value is not polindrome`)
 }
+// find the largest number in array
+
+let arr = [4,6,7,8,9,10,3,7];
+let big = arr[0];
+for(i= 1; i<arr.length; i++){
+    if(big<arr[i]){
+    big= arr[i]
+   
+    }
+  
+    }
+
+  console.log(big)
