@@ -24,7 +24,6 @@ let big = arr[0];
 for(i= 1; i<arr.length; i++){
     if(big<arr[i]){
     big= arr[i]
-   
     }
   
     }
