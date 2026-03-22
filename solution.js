@@ -29,3 +29,16 @@ for(i= 1; i<arr.length; i++){
     }
 
   console.log(big)
+//Count vowels in string
+
+let vie = ["a",'e',"i","o","u"];
+let str = "sarthak";
+let coun = 0;
+for ( let i=0; i<= str.length; i++){
+    if(vie.includes(str[i])){
+        coun += 1
+    }
+     
+    
+}
+ console.log(coun);
