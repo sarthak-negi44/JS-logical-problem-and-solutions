@@ -38,7 +38,5 @@ for ( let i=0; i<= str.length; i++){
     if(vie.includes(str[i])){
         coun += 1
     }
-     
-    
 }
  console.log(coun);
