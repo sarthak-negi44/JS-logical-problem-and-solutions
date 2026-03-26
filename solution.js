@@ -27,7 +27,6 @@ for(i= 1; i<arr.length; i++){
     }
   
     }
-
   console.log(big)
 //Count vowels in string
 
