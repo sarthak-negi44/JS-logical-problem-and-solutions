@@ -25,7 +25,6 @@ for(i= 1; i<arr.length; i++){
     if(big<arr[i]){
     big= arr[i]
     }
-  
     }
   console.log(big)
 //Count vowels in string
