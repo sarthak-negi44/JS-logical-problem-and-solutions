@@ -38,3 +38,9 @@ for ( let i=0; i<= str.length; i++){
     }
 }
  console.log(coun);
+//we have API data to find age >25.
+let users = [{age:20}, {age:30}, {age:25}];
+
+let result = users.filter(user => user.age > 25);
+
+console.log(result);
