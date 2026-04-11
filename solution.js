@@ -43,3 +43,23 @@ let users = [{age:20}, {age:30}, {age:25}];
 let result = users.filter(user => user.age > 25);
 
 console.log(result);
+// Find first non repeating character
+function firstNonRepeatingChar(str) {
+  let count = {};
+
+  // Count frequency
+  for (let char of str) {
+    count[char] = (count[char] || 0) + 1;
+  }
+
+  // Find first unique
+  for (let char of str) {
+    if (count[char] === 1) {
+      return char;
+    }
+  }
+
+  return null;
+}
+
+console.log(firstNonRepeatingChar("aabbcdde"));
