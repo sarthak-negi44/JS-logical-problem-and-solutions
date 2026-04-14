@@ -58,7 +58,6 @@ function firstNonRepeatingChar(str) {
       return char;
     }
   }
-
   return null;
 }
 
