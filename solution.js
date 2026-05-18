@@ -62,3 +62,17 @@ function firstNonRepeatingChar(str) {
 }
 
 console.log(firstNonRepeatingChar("aabbcdde"));
+//SO TODAY I TRY OUT REVERSE STRING WITH THE HELP OF FUNCTION. NOW WE CAN REVERSE ANY STRING BY PASSING AN ARGUMENT TO THE FUNCTION.
+function reverseString(text) {
+    let newText = "";
+
+    for(let i = text.length - 1; i >= 0; i--) {
+        newText += text[i];
+    }
+
+    text = newText;
+
+    return text;
+}
+
+console.log(reverseString("SARTHAK"));
