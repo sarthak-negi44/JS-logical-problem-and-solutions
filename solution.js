@@ -76,3 +76,12 @@ function reverseString(text) {
 }
 
 console.log(reverseString("SARTHAK"));
+//MISSING NUMBER IN ARRAY
+let arr = [1, 2, 3, 5];
+
+for(let i = 1; i <= arr.length; i++) {
+    if(i !== arr[i - 1]) {
+        console.log(i);
+    }
+}
+//THE OUTPUT WILL BE 4 IN THIS CASE
