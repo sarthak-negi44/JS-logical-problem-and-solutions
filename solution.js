@@ -74,7 +74,6 @@ function reverseString(text) {
 
     return text;
 }
-
 console.log(reverseString("SARTHAK"));
 //MISSING NUMBER IN ARRAY
 let arr = [1, 2, 3, 5];
