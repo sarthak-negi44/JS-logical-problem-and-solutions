@@ -84,3 +84,16 @@ for(let i = 1; i <= arr.length; i++) {
     }
 }
 //THE OUTPUT WILL BE 4 IN THIS CASE
+//FLATTEN  NESTED ARRAY 
+let arr = [1, [2, 3], [4, 5]];
+let result = [];
+
+for (let item of arr) {
+    if (Array.isArray(item)) {
+        result.push(...item); // append all elements
+    } else {
+        result.push(item);
+    }
+}
+
+console.log(result); // [1, 2, 3, 4, 5]
