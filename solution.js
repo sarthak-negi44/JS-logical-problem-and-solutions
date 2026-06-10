@@ -97,3 +97,23 @@ for (let item of arr) {
 }
 
 console.log(result); // [1, 2, 3, 4, 5]
+//THIS TIME THE ERROR IS SOMETHIG NEW FORTH SAME
+//CODE. WE NEED TO CHECK TWICE THE CODE BECSUSE OF 
+//HAVING ARRAY IN ARRAY....
+function flatten(arr) {
+    let result = [];
+
+    for (let item of arr) {
+        if (Array.isArray(item)) {
+            result.push(...flatten(item));
+        } else {
+            result.push(item);
+        }
+    }
+
+    return result;
+}
+
+let arr = [1, [2, [3, 4]], 5];
+
+console.log(flatten(arr));
