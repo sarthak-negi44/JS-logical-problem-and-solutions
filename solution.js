@@ -117,3 +117,12 @@ function flatten(arr) {
 let arr = [1, [2, [3, 4]], 5];
 
 console.log(flatten(arr));
+//FROM TODAY I START DSA SO GIT GET TO KNOW ABOUT NESTED FOOP 
+//PRINT 5 BY 5 * WITH THE HELP OF FOR LOOP
+for (let i = 0; i < 5; i++) {
+    let row = "";
+    for (let j = 0; j < 5; j++) {
+        row += "* ";
+    }
+    console.log(row);
+}
