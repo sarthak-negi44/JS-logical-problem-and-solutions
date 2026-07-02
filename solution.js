@@ -126,3 +126,16 @@ for (let i = 0; i < 5; i++) {
     }
     console.log(row);
 }
+//IT IS MY FIRST DSA QUESTION THAT I TRY TO SOLVE.THE PROBLEM
+//WAS NEW FOR ME WHAT I WAS ABLE TO SOLVE IT
+nums = [2, 7, 11, 15];
+target = 9;
+var twoSum = function(nums, target) {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] + nums[j] === target) {
+                return [i, j];
+            }
+        }
+    }
+};
